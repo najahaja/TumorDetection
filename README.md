@@ -20,7 +20,7 @@ https://pytorch.org/get-started/locally.
 pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
 pip install Ultralytics
 
-### 2.Key Modifications to YOLOv11
--Custom anchor boxes for brain MRI dimensions
--Added DICOM image preprocessing layer
--Modified detection head for 3-class output (glioma, meningioma, pituitary)
+### 2. Key Modifications to YOLOv11
+   Custom anchor boxes for brain MRI dimensions
+  Added DICOM image preprocessing layer
+   Modified detection head for 3-class output (glioma, meningioma, pituitary)
