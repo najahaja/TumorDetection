@@ -13,7 +13,7 @@ A YOLOv11-based solution for detecting brain tumors in MRI scans, developed as p
 ## 🛠️ Technical Implementation
 
 ### 1. Environment Setup
-```python
+    ```python
 # Google Colab Specific Setup
 Ultralytics recommend to install pytorch first from official website as per your cuda version- 
 https://pytorch.org/get-started/locally.
@@ -24,12 +24,7 @@ pip install Ultralytics
    Custom anchor boxes for brain MRI dimensions
   Added DICOM image preprocessing layer
    Modified detection head for 3-class output (glioma, meningioma, pituitary)
-2. Key Modifications to YOLOv11
-Custom anchor boxes for brain MRI dimensions
 
-Added DICOM image preprocessing layer
-
-Modified detection head for 3-class output (glioma, meningioma, pituitary)
 
 3. Training Configuration (train.py)
 yaml
