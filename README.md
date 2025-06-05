@@ -14,11 +14,11 @@ A YOLOv11-based solution for detecting brain tumors in MRI scans, developed as p
 
 ### 1. Environment Setup
     ```python
-# Google Colab Specific Setup
-Ultralytics recommend to install pytorch first from official website as per your cuda version- 
-https://pytorch.org/get-started/locally.
-pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
-pip install Ultralytics
+    # Google Colab Specific Setup
+    Ultralytics recommend to install pytorch first from official website as per your cuda version- 
+    https://pytorch.org/get-started/locally.
+    pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+    pip install Ultralytics
 
 ### 2. Key Modifications to YOLOv11
    Custom anchor boxes for brain MRI dimensions
