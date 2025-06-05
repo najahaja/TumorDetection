@@ -8,7 +8,7 @@ A YOLOv11-based solution for detecting brain tumors in MRI scans, developed as p
 ## 🔗 Resources
 - **Google Colab Notebook**: [Open Notebook](https://colab.research.google.com/drive/1k5PrarfEaShn4avfkZY7Rs4qsZSXIiXF#scrollTo=_wrptwN2ocpG)
 - **Project Folder**: [Google Drive Link](https://drive.google.com/drive/folders/1Ck7hFT1VbBqQZ-yuhLRYw4YqOETe61Lv?usp=sharing)
-- **Dataset**: [BraTS 2023](https://www.synapse.org/brats2023) (train_batch0.jpg)
+- **Dataset**: ![Training Sample](train_batch0.jpg)
 
 ## 🛠️ Technical Implementation
 
