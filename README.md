@@ -52,10 +52,10 @@ yaml
 -    │   └── data.yaml                  # Dataset config
 -    ├── runs/
 -    │   ├── train/                     # Training artifacts
--    │   └── detect/                    | Inference results
+-    │   └── detect/                    # Inference results
 -    └── weights/
--        ├── best.pt                    # Final model
--        └── last.pt                    # Last checkpoint
+-         ├── best.pt                    # Final model
+-         └── last.pt                    # Last checkpoint
 🚀 How to Use
 Open in Colab: Click the Colab badge above
 
@@ -80,7 +80,7 @@ python
 
 ✅ Optimized for Colab environment
 
-##📝 Internship Deliverables
+## 📝 Internship Deliverables
    - Complete Colab notebook with training code
    - Annotated dataset in YOLO format
    - Model evaluation report
