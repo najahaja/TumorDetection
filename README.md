@@ -54,22 +54,19 @@ yaml
 -    │   ├── train/                     # Training artifacts
 -    │   └── detect/                    # Inference results
 -    └── weights/
--         ├── best.pt                    # Final model
--         └── last.pt                    # Last checkpoint
-🚀 How to Use
-Open in Colab: Click the Colab badge above
+-            ├── best.pt                    # Final model
+-            └── last.pt                    # Last checkpoint
+## 🚀 How to Use
+-Open in Colab: Click the Colab badge above
 
-Mount Google Drive:
+### Mount Google Drive:
 
-python
-from google.colab import drive
-drive.mount('/content/drive')
-Run Inference:
-
-python
-!python detect.py --weights /content/drive/MyDrive/TumorDetection_Internship/weights/best.pt \
-                 --source /content/drive/MyDrive/TumorDetection_Internship/datasets/test/images/001.png
-💡 Key Features (Internship Requirements)
+- from google.colab import drive
+- drive.mount('/content/drive')
+- Run Inference:
+!python detect.py -- weights /content/drive/MyDrive/TumorDetection_Internship/weights/best.pt \
+                 -- source /content/drive/MyDrive/TumorDetection_Internship/datasets/test/images/001.png
+### 💡 Key Features (Internship Requirements)
 ✅ Implemented YOLOv11 as specified in task
 
 ✅ Achieved >85% mAP on clinical data
