@@ -42,20 +42,7 @@ yaml
 - Inference Speed (T4 GPU)	28 FPS
 - Training Curves
 
-🗂️ Google Drive Project Structure
-- MyDrive/
-- └── TumorDetection/
--    ├── YOLOv11_Tumor_Detection.ipynb  # Main Colab Notebook
--     ── datasets/
--    │   ├── train/images/              # 1,200 MRI scans
--    │   ├── train/labels/              # YOLO format annotations
--    │   └── data.yaml                  # Dataset config
--    ├── runs/
--    │   ├── train/                     # Training artifacts
--    │   └── detect/                    # Inference results
--    └── weights/
--            ├── best.pt                    # Final model
--            └── last.pt                    # Last checkpoint
+
 ## 🚀 How to Use
 -Open in Colab: Click the Colab badge above
 
@@ -64,8 +51,8 @@ yaml
 - from google.colab import drive
 - drive.mount('/content/drive')
 - Run Inference:
-!python detect.py -- weights /content/drive/MyDrive/TumorDetection_Internship/weights/best.pt \
-                 -- source /content/drive/MyDrive/TumorDetection_Internship/datasets/test/images/001.png
+- weights /content/drive/MyDrive/TumorDetection_Internship/weights/best.pt 
+- source /content/drive/MyDrive/TumorDetection_Internship/datasets/test/images/001.png
 ### 💡 Key Features (Internship Requirements)
 ✅ Implemented YOLOv11 as specified in task
 
