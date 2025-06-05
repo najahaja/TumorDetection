@@ -29,33 +29,33 @@ A YOLOv11-based solution for detecting brain tumors in MRI scans, developed as p
 ### 3. Training Configuration (train.py)
 yaml
 #### Hyperparameters (colab_tumor_detection.yaml)
--lr0: 0.001
--batch_size: 16
--epochs: 100
--img_size: [512, 512]
--weights: yolov11s.pt
--📊 Performance Metrics
--Metric	Validation	Test
--mAP@0.5	0.891	0.872
--Precision	0.923	0.901
--Recall	0.854	0.832
--Inference Speed (T4 GPU)	28 FPS
--Training Curves
+- lr0: 0.001
+- batch_size: 16
+- epochs: 100
+- img_size: [512, 512]
+- weights: yolov11s.pt
+- 📊 Performance Metrics
+- Metric	Validation	Test
+- mAP@0.5	0.891	0.872
+- Precision	0.923	0.901
+- Recall	0.854	0.832
+- Inference Speed (T4 GPU)	28 FPS
+- Training Curves
 
 🗂️ Google Drive Project Structure
-MyDrive/
-└── TumorDetection_Internship/
-    ├── YOLOv11_Tumor_Detection.ipynb  # Main Colab Notebook
-    ├── datasets/
-    │   ├── train/images/              # 1,200 MRI scans
-    │   ├── train/labels/              # YOLO format annotations
-    │   └── data.yaml                  # Dataset config
-    ├── runs/
-    │   ├── train/                     # Training artifacts
-    │   └── detect/                    | Inference results
-    └── weights/
-        ├── best.pt                    # Final model
-        └── last.pt                    # Last checkpoint
+- MyDrive/
+- └── TumorDetection/
+-    ├── YOLOv11_Tumor_Detection.ipynb  # Main Colab Notebook
+-     ── datasets/
+-    │   ├── train/images/              # 1,200 MRI scans
+-    │   ├── train/labels/              # YOLO format annotations
+-    │   └── data.yaml                  # Dataset config
+-    ├── runs/
+-    │   ├── train/                     # Training artifacts
+-    │   └── detect/                    | Inference results
+-    └── weights/
+-        ├── best.pt                    # Final model
+-        └── last.pt                    # Last checkpoint
 🚀 How to Use
 Open in Colab: Click the Colab badge above
 
@@ -81,10 +81,10 @@ python
 ✅ Optimized for Colab environment
 
 ##📝 Internship Deliverables
-   -Complete Colab notebook with training code
-   -Annotated dataset in YOLO format
-   -Model evaluation report
-   -Inference demo notebook
+   - Complete Colab notebook with training code
+   - Annotated dataset in YOLO format
+   - Model evaluation report
+   - Inference demo notebook
 
 # 📜 License
 ### Internship project © 2025 - Ahamed Najah. For academic use only.
