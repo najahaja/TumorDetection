@@ -44,10 +44,8 @@ yaml
 
 
 ## 🚀 How to Use
--Open in Colab: Click the Colab badge above
-
-### Mount Google Drive:
-
+- Open in Colab: Click the Colab badge above
+-  Mount Google Drive
 - from google.colab import drive
 - drive.mount('/content/drive')
 - Run Inference:
