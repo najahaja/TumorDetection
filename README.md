@@ -26,21 +26,21 @@ A YOLOv11-based solution for detecting brain tumors in MRI scans, developed as p
    Modified detection head for 3-class output (glioma, meningioma, pituitary)
 
 
-3. Training Configuration (train.py)
+### 3. Training Configuration (train.py)
 yaml
-# Hyperparameters (colab_tumor_detection.yaml)
-lr0: 0.001
-batch_size: 16
-epochs: 100
-img_size: [512, 512]
-weights: yolov11s.pt
-📊 Performance Metrics
-Metric	Validation	Test
-mAP@0.5	0.891	0.872
-Precision	0.923	0.901
-Recall	0.854	0.832
-Inference Speed (T4 GPU)	28 FPS
-Training Curves
+#### Hyperparameters (colab_tumor_detection.yaml)
+-lr0: 0.001
+-batch_size: 16
+-epochs: 100
+-img_size: [512, 512]
+-weights: yolov11s.pt
+-📊 Performance Metrics
+-Metric	Validation	Test
+-mAP@0.5	0.891	0.872
+-Precision	0.923	0.901
+-Recall	0.854	0.832
+-Inference Speed (T4 GPU)	28 FPS
+-Training Curves
 
 🗂️ Google Drive Project Structure
 MyDrive/
@@ -80,28 +80,16 @@ python
 
 ✅ Optimized for Colab environment
 
-📝 Internship Deliverables
-Complete Colab notebook with training code
+##📝 Internship Deliverables
+   -Complete Colab notebook with training code
+   -Annotated dataset in YOLO format
+   -Model evaluation report
+   -Inference demo notebook
 
-Annotated dataset in YOLO format
-
-Model evaluation report
-
-Inference demo notebook
-
-📜 License
-Internship project © 2023 - [Your Name]. For academic use only.
+# 📜 License
+### Internship project © 2025 - Ahamed Najah. For academic use only.
 
 
-**To use this README:**
-1. Replace `YOUR_COLAB_LINK_HERE` with your notebook's shareable link
-2. Replace `YOUR_DRIVE_LINK_HERE` with your Drive folder link
-3. Update metrics with your actual values
-4. Add real training curves (replace placeholder)
-5. Include your company/institution name
 
-**Pro Tip:** To get your Colab link:
-1. Open your notebook in Colab
-2. Click `Share` → `Copy link`
-3. Make sure link sharing is set to "Anyone with the link"
+
 
